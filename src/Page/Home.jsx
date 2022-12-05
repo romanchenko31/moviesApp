@@ -7,12 +7,6 @@ const Home = () => {
   const [movies, setMovies] = useState(null);
 
   useEffect(() => {
-    // const fetchMovies = async () => {
-    //   // const getMovies = await getPopularMovies();
-    //   // console.log("getMovies", getMovies);
-    //   // setMovies(getMovies.results);
-
-    // };
     const API_KEY = "cdc3559cea174c9b75b98956c9a389b5";
     const BASE_URL = "https://api.themoviedb.org";
 
