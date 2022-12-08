@@ -15,6 +15,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ul{
+  margin: 0;
+  padding:0;
+}
+li{
+  list-style: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -28,7 +35,10 @@ body {
   line-height: 1.5;
   color: #121212;
 }
-
+a{
+  color:black;
+  text-decoration: none;
+}
 textarea,
 input,
 button {
@@ -43,6 +53,11 @@ button {
   margin: 0;
 }
 
-.active{
-  color:red;
+p,h1,
+h2,
+h3,
+h4,
+h5{
+  margin: 0;
+  padding: 0;
 }
