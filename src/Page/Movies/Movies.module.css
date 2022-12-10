@@ -1,0 +1,10 @@
+.link {
+  display: block;
+  padding: 10px;
+}
+
+.link:hover {
+  color: rgb(48, 44, 44);
+  font-size: 15px;
+  background: #dffbdf;
+}
