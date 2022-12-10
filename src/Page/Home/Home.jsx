@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getPopularMoviesApi } from "../../Service/Service";
-import s from "../Home/Home.module.css";
+import style from "../Home/Home.module.css";
 
 const Home = () => {
   const [movies, setMovies] = useState(null);
@@ -25,7 +25,7 @@ const Home = () => {
             value.title && (
               <li key={value.id}>
                 <NavLink
-                  className={s.link}
+                  className={style.link}
                   to={`movies/${value.id}`}
                   state={{ from: pathname }}
                 >

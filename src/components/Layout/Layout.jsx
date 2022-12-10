@@ -1,16 +1,16 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
-import s from "../Layout/Layout.module.css";
+import style from "../Layout/Layout.module.css";
 
 const Layout = () => {
   return (
     <>
       <Header />
-      <div className={s.wrapper}>
+      <div className={style.wrapper}>
         <Outlet />
       </div>
 
-      <footer className={s.footer}>2022</footer>
+      <footer className={style.footer}>2022</footer>
     </>
   );
 };
